@@ -1,4 +1,4 @@
-package com.admin.calidad.funcionales;
+package com.fca.calidad;
 
 import static org.junit.Assert.*;
 
@@ -58,7 +58,6 @@ public class LoginTest {
     //Obtencion del texto de etiqueta
     String resultadoEjecucion = texto.getText();
     assertEquals(resultadoEsperado, resultadoEjecucion);
-    assertThat(resultadoEjecucion, containsString(resultadoEsperado));
     // ERROR: Caught exception [unknown command []]
   }
   @After

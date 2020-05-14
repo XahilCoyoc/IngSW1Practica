@@ -1,4 +1,4 @@
-package com.admin.calidad.funcionales;
+package com.fca.calidad;
 
 import java.util.regex.Pattern;
 import java.util.concurrent.TimeUnit;
