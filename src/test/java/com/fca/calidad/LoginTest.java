@@ -50,7 +50,7 @@ public class LoginTest {
     driver.findElement(By.id("username")).sendKeys("fghbj");
     driver.findElement(By.id("password")).click();
     driver.findElement(By.id("password")).clear();
-    driver.findElement(By.id("password")).sendKeys("hhjdsaksl");
+    driver.findElement(By.id("password")).sendKeys("qiwhje");
     driver.findElement(By.xpath("//form[@id='login']/button/i")).click();
     //Elemento Flash busqueda 
     WebElement texto = driver.findElement(By.id("Flash"));
