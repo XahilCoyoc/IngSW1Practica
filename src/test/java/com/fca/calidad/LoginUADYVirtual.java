@@ -36,10 +36,10 @@ public class LoginUADYVirtual {
     driver.findElement(By.id("username")).sendKeys("A15211330");
     driver.findElement(By.id("password")).click();
     driver.findElement(By.id("password")).clear();
-    driver.findElement(By.id("password")).sendKeys("xxxxx");
+    driver.findElement(By.id("password")).sendKeys("contrasenia");
     driver.findElement(By.id("loginbtn")).click();
     // Warning: assertTextPresent may require manual changes
-    assertTrue(driver.findElement(By.cssSelector("BODY")).getText().matches("^[\\s\\S]*Administración de la Calidad del Software - E[\\s\\S]*$"));
+    assertTrue(driver.findElement(By.cssSelector("BODY")).getText().matches("^[\\s\\S]*AdministraciÃ³n de la Calidad del Software - E[\\s\\S]*$"));
   }
   
   @Test
@@ -53,7 +53,7 @@ public class LoginUADYVirtual {
     driver.findElement(By.id("password")).sendKeys("5374384f8i");
     driver.findElement(By.id("loginbtn")).click();
     // Warning: assertTextPresent may require manual changes
-    assertTrue(driver.findElement(By.cssSelector("BODY")).getText().matches("^[\\s\\S]*Datos erróneos\\. Por favor, inténtelo otra vez\\.[\\s\\S]*$"));
+    assertTrue(driver.findElement(By.cssSelector("BODY")).getText().matches("^[\\s\\S]*Datos errÃ³neos\\. Por favor, intÃ©ntelo otra vez\\.[\\s\\S]*$"));
   }
 
   @After
