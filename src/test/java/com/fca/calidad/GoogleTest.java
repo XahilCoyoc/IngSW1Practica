@@ -14,7 +14,7 @@ public class GoogleTest {
   private String baseUrl;
   private boolean acceptNextAlert = true;
   private StringBuffer verificationErrors = new StringBuffer();
-
+//
   @Before
   public void setUp() throws Exception {
     System.setProperty("webdriver.chrome.driver", "/Users/usuario/Downloads/FCA/ChromeDriver/chromedriver.exe");
